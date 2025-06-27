@@ -27,7 +27,8 @@ class Game:
             print(f"{self.player1.name} rolled {p1_roll}")
             print(f"{self.player2.name} rolled {p2_roll}")
 
-            if p1_roll > p2_roll:
+            if p1_roll > p2_roll:# This line is just a test for branch comparison
+
                 self.player1.update_score(1)
                 print(f"{self.player1.name} wins this round!")
             elif p2_roll > p1_roll:
